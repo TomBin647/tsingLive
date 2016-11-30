@@ -1,0 +1,69 @@
+//
+//  PrefixHeader.pch
+//  Live
+//
+//  Created by 高彬 on 16/11/28.
+//  Copyright © 2016年 tsingLive. All rights reserved.
+//
+
+#import <KSToolkit/KSToolkit.h>
+#import <Masonry/Masonry.h>
+#import <MJExtension/MJExtension.h>
+#import <SDWebImage/UIImageView+WebCache.h>
+#import <SDWebImage/UIImageView+HighlightedWebCache.h>
+#import <KSRefreshView.h>
+#import "UIView+SLExtension.h"
+#import "ALinNetworkTool.h"
+#import "UIViewController+SLExtension.h"
+#import "UIViewController+SLHUD.h"
+#import "NSObject+ALinHUD.h"
+//根据像素大小获取一个PT值
+#define PX(v) ((v) * 1.0f / 2)
+//根据像素大小获取一个加粗的字体
+#define FB(v) [UIFont boldSystemFontOfSize:((v) * 1.0f / 2)]
+//根据像素大小获取一个字体
+#define FN(v) [UIFont systemFontOfSize:((v) * 1.0f / 2)]
+// 获取缩略图
+#define ThumbnailURLString(URL, width, height) [NSString stringWithFormat:@"%@?w=%zd&h=%zd", URL, width, height]
+#define Home_Seleted_Item_W 60
+#define DefaultMargin       10
+//全局导航背景颜色
+#define G_NAV_BG_COLOR CHEX(0x25bef8)
+//全局导航字体颜色
+#define G_NAV_FONT_COLOR CHEX(0xffffff)
+
+#define Color(r,g,b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+#define KeyColor Color(216, 41, 116)
+//将为nil的STRING对象返回一个空字符串
+#define STRING_NULL(v) ((v) == nil ? @"" : (v))
+
+#define kMarginNormalLeft  15.0f              //普通的左边距
+#define kMarginNormalTop   10.0f              //普通的上边距
+
+
+#define  kWhiteColor    [UIColor whiteColor]
+
+
+
+#define kMeTopViewHeight  150.0f             // 我顶部view高度
+#define kLoginTopViewHeight  XT(370)          // 登录顶部view高度
+#define kTableRowHeight   125.0f
+#define kRebateTableRowHeight   125.0f      // 返利团cell高度
+#define kIndianaTableRowheight  120.0f      // 一元夺宝cell高度
+#define kAgentTableRowHeight    105.0f      // 机构cell高度
+
+
+#pragma mark - 通知
+// 当前没有关注的主播, 去看热门主播
+#define kNotifyToseeBigWorld @"kNotifyToseeBigWorld"
+// 当前的直播控制器即将消失
+#define kNotifyLiveWillDisappear @"kNotifyLiveWillDisappear"
+// 点击了用户
+#define kNotifyClickUser @"kNotifyClickUser"
+// 自动刷新最新主播界面
+#define kNotifyRefreshNew @"kNotifyRefreshNew"
+
+#pragma mark - 其他
+// 上一次刷新的时间
+#define kLastRefreshDate @"kLastRefreshDate"
+

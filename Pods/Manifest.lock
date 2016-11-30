@@ -1,0 +1,75 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - BarrageRenderer (1.9.0)
+  - CBTableViewDataSource (1.1.0)
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - FMDBDataTable (2.1.6):
+    - FMDB (~> 2.5)
+  - HMSegmentedControl (1.5.3)
+  - KSGuide (1.4)
+  - KSRefresh (0.4.1)
+  - KSToolkit (0.3.4)
+  - LFLiveKit (2.5)
+  - Masonry (1.0.2)
+  - MBProgressHUD (1.0.0)
+  - MJExtension (3.0.13)
+  - mp3lame-for-ios (0.1.1)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - UITableView+FDTemplateLayoutCell (1.4)
+
+DEPENDENCIES:
+  - AFNetworking
+  - BarrageRenderer
+  - CBTableViewDataSource
+  - FMDBDataTable
+  - HMSegmentedControl
+  - KSGuide
+  - KSRefresh
+  - KSToolkit
+  - LFLiveKit
+  - Masonry
+  - MBProgressHUD
+  - MJExtension
+  - mp3lame-for-ios
+  - SDWebImage
+  - UITableView+FDTemplateLayoutCell
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  BarrageRenderer: a5b54aef34eed1eab48f35ed594082ae446947c9
+  CBTableViewDataSource: b3af29c138d3b594eb577be2bdd996685121c5c8
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  FMDBDataTable: 111128e3bfc0fcff5b83620b42a798effb6d3067
+  HMSegmentedControl: 7c6145afb50f26cec5f3243082f6f12b9f41318f
+  KSGuide: 72d24bb017302c96ce6ba4155e84ec5b782db081
+  KSRefresh: 90680431147d3b25fdc658cfa9d85c47bd963934
+  KSToolkit: 07faa77e85dfea179e7d54b12703184f46509b4c
+  LFLiveKit: 4361bd588ae0c9244589119ccdb1c30d14686414
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  mp3lame-for-ios: 4daeb5686885be66438154050e3fe975d4ee1f07
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  UITableView+FDTemplateLayoutCell: 234e1582bcc4e18461af91155123bb96538ed030
+
+PODFILE CHECKSUM: a6fdcc79c78d9755a33b089bf88f5dbb6aa1b004
+
+COCOAPODS: 1.1.1

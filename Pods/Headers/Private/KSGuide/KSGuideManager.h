@@ -1,0 +1,1 @@
+../../../KSGuide/src/KSGuideManager.h
